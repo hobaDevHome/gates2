@@ -57,7 +57,7 @@ export default async function handler(req, res) {
     try {
       result = JSON.parse(clean);
     } catch {
-      result = { correct: false, feedback: "حاول تاني" };
+      result = { correct: false, feedback: "حاو ل تاني" };
     }
 
     res.status(200).json({
